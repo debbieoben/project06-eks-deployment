@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+.docker/
+
+# Kubernetes secrets (if any)
+*-secret.yaml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
